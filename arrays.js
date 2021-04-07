@@ -5,6 +5,10 @@
  * It is a collection of array utilities I often end up rewriting.
  */
 
+const first = arr => arr[0];
+
+const last = arr => [arr.length - 1];
+
 /**
  * Returns a new array with the indexes as values, i.e. [0, 1, ...len]
  *
