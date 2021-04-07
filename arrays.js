@@ -28,9 +28,7 @@ const chunk = (arr, size) => {
 
   return range(parentSize).map((index) => {
     const start = index * size;
-    const end = start + size;
-
-    return arr.slice(start, end);
+    return arr.slice(start, start + size);
   });
 };
 
